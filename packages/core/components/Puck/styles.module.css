@@ -16,7 +16,7 @@
  * 1598px   | 1212px
  */
 
- .Puck {
+.Puck {
   --puck-frame-width: auto;
   --puck-side-bar-width: 186px;
   --puck-space-px: 16px;
@@ -44,9 +44,9 @@
     var(--puck-side-bar-width);
 }
 
-.Puck--leftSideBarVisible.Puck--rightSideBarVisible  {
+.Puck--leftSideBarVisible.Puck--rightSideBarVisible {
   grid-template-columns:
-  var(--puck-side-bar-width) var(--puck-frame-width)
+    var(--puck-side-bar-width) var(--puck-frame-width)
     var(--puck-side-bar-width);
 }
 
